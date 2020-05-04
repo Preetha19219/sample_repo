@@ -134,4 +134,4 @@ $ git config --global alias.visual '!gitk'
 
 $ git visual
 
-# It demonstrates by aliasing git visual to run gitk:
+# It demonstrates by aliasing git visual to run gitk
