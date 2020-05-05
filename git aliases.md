@@ -2,10 +2,10 @@
 
 # Following "git config" used to set up an alias for each command
 
-$ git config --global alias.ci commit
-$ git config --global alias.st status
 $ git config --global alias.co checkout
 $ git config --global alias.br branch
+$ git config --global alias.ci commit
+$ git config --global alias.st status
 
 # Example 01:
 
@@ -123,15 +123,3 @@ Date:   Mon May 4 08:06:43 2020 +0530
 
     draft
 $
-
-# Example 06:
-
-# This "git config" used to set up an alias for "external" command
-
-$ git config --global alias.visual '!gitk'
-
-# If you want to run an external command, rather than a Git subcommand. In that case, you start the command with a ! character.
-
-$ git visual
-
-# It demonstrates by aliasing git visual to run gitk
